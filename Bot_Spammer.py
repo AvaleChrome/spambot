@@ -27,4 +27,4 @@ async def spam(ctx): #run "!spam" to run the command
         await bot.say("")
  
 ##BOT TOKEN##
-bot.run ("BOT_TOKEN")
+bot.run ("process.env.BOT_TOKEN")
